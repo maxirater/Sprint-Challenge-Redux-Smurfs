@@ -28,7 +28,7 @@ const reducer = ( state = initialState, action ) => {
         case POST_SMURF_SUCCESS:
             return {
                 ...state,
-                friends: action.payload,
+                smurfs: action.payload,
                 postingSmurf: false
             }
         case POST_SMURF_FAILURE:
